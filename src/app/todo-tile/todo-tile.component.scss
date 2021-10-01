@@ -1,0 +1,43 @@
+.todoTile {
+
+  width: 800px;
+  border: 1px solid red;
+  border-radius: 5px;
+ 
+  float: left;
+  position: relative;
+  margin: 5px;
+  //display:flex;
+  //display: inline; 
+  padding: 20px;
+  margin:10px;
+ 
+  display: inline-flex; 
+  max-width: 1200px; 
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  
+}
+
+
+.todoStatus button:last-child {
+  float: left;
+ 
+}
+.btn-success{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.btn-danger{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.main{
+  padding:5px;
+  
+}
+.btn-primary{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
